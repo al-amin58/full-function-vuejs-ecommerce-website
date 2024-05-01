@@ -1,0 +1,170 @@
+.category {
+    &-section {
+        &-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #fff;
+            padding: 6px;
+            padding-bottom: 10px;
+            position: relative;
+            transition: all ease-in-out 0.4s;
+            border-radius: 12px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            &::after {
+                content: '';
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: 0;
+                height: 3px;
+                width: 0;
+                background-color: $primary-color;
+                transition: all ease-in-out 0.4s;
+            }
+            &:hover {
+                img {
+                    transform: scale(1.2);
+                    transition: all ease-in-out 0.4s;
+                }
+                &::after {
+                    width: 100%;
+                }
+            }
+            img {
+                transition: all ease-in-out 0.4s;
+                width: 80px;
+                height: 80px
+            }
+            h3 {
+                font-weight: 500;
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+
+.product-filter-section {
+    .links {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+        &-item {
+            padding: 10px;
+            display: block;
+            background-color: #fff;
+            color: #000;
+            font-size: 13px;
+            cursor: pointer;
+            &:hover {
+                color: #fff;
+                background-color: $primary-color;
+            }
+        }
+
+        input[type="radio"]:checked + label {
+            background: $primary-color;
+            color: #fff;
+        }
+
+    }
+}
+
+
+.header-links {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    z-index: 999;
+    background-color: #fff;
+    &-item {
+        padding: 10px;
+        display: block;
+        background-color: #fff;
+        color: #000;
+        font-size: 12px;
+        cursor: pointer;
+        font-weight: 400;
+        transition: all 0.3s;
+        .dropDown {
+            position: absolute;
+            top: 0;
+            right: -220px;
+            background-color: #fff;
+            width: 200px;
+            height: 100%;
+            opacity: 0;
+            z-index: -1;
+            transition: all 0.3s;
+        }
+        &:hover {
+            //color: #fff;
+            background-color: #f2f2f2;
+            .dropDown {
+                right: -200px;
+                opacity: 1;
+                z-index: 99;
+                transition: all 0.3s;
+            }
+        }
+    }
+
+    input[type="radio"]:checked + label {
+        background: $primary-color;
+        color: #fff;
+    }
+}
+
+
+//  Home page icon box
+.icon-box {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s;
+    z-index: 2;
+    &:hover {
+        background-color: $primary-color;
+        transition: all 0.4s;
+        .icon {
+            background-color: #fff;
+            transition: all 0.4s;
+            i {
+                color: $primary-color;
+                transition: all 0.4s;
+            }
+        }
+        p,h4{
+            color: #fff;
+            transition: all 0.5s;
+        }
+    }
+    .icon {
+        height: 64px;
+        width: 64px;
+        border-radius: 999px;
+        background-color: $primary-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+        z-index: 1;
+
+        i {
+            color: #fff;
+            font-size: 24px;
+        }
+    }
+    h4 {
+        margin-bottom: 10px !important;
+    }
+    p {
+        transition: all 0.5s;
+    }
+}

@@ -1,0 +1,86 @@
+.property {
+    display: flex;
+    gap: 20px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    &-images {
+        img {
+            width: 320px;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+    }
+
+    &-detail {
+        width: 100%;
+        .location {
+            display: flex;
+            align-items: baseline;
+            i {
+                font-size: 22px;
+                color: #df0101;
+            }
+            p {
+                font-size: 16px;
+                color: $text-color;
+                font-weight: 400;
+            }
+        }
+        .price {
+            color: $primary-color;
+            font-weight: 700;
+        }
+        .type {
+            span {
+                padding: 4px 12px;
+                color: #fff;
+                border-radius: 30px;
+                font-size: 12px;
+                text-transform: uppercase;
+                font-weight: 600;
+            }
+        }
+        .property-items {
+            li {
+                background: rgba(49, 39, 130, 0.150);
+                padding: 4px 12px;
+                color: $primary-color;
+                border-radius: 30px;
+                svg {
+                    fill: $primary-color;
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+        .actions {
+            i {
+                font-size: 14px;
+            }
+            .edit,.delete {
+                display: flex;
+                align-items: center;
+                padding: 4px 12px;
+                gap: 8px;
+                font-size: 14px;
+                border-radius: 30px;
+            }
+            .edit {
+                background: rgba(0, 255, 0, 0.1);
+                color: #04452f;
+                i {
+                    color: #04452f;
+                }
+            }
+            .delete {
+                background: rgba(255, 0, 0, 0.2);
+                color: rgb(255, 0, 0);
+                i {
+                    color: rgb(255, 0, 0);
+                }
+            }
+        }
+    }
+}

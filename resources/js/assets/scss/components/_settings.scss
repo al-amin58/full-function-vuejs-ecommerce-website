@@ -1,0 +1,42 @@
+.settings {
+    .list-group-item {
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+    }
+    .list-group-item.active  {
+        background: $primary-color;
+    }
+    .img-upload {
+        max-width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 20px;
+        gap: 15px;
+        cursor: pointer;
+        transition: all ease-in-out 0.4s;
+        span {
+            color: $text-color;
+            font-weight: 500;
+            transition: all ease-in-out 0.4s;
+        }
+        i {
+            font-size: 20px;
+            color: $text-color;
+            transition: all ease-in-out 0.4s;
+        }
+
+        input {
+            display: none;
+            
+        }
+        &:hover {
+            border-color: $primary-color;
+            background-color: $primary-color;
+            span,i {
+                color: #fff;
+            } 
+        }
+    }
+}

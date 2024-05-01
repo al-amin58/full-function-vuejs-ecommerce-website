@@ -1,0 +1,23 @@
+.info-alert{
+    margin-block: 20px;
+    border: 2px solid $primary-color;
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    align-items: start;
+    gap: 15px;
+    &-icon {
+        i {
+            color: $primary-color;
+            font-size: 24px;
+        }
+    }
+    &-text {
+        p {
+            color: $text-color;
+            font-size: 14px;
+            text-transform: math-auto;
+        }
+    }
+}
+

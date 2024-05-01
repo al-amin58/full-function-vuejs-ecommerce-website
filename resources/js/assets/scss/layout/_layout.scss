@@ -1,0 +1,151 @@
+.layout {
+    background-color: $bg-color;
+}
+
+// Side Bar
+
+.side-bar {
+    width: 280px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    box-shadow: 0 0 15px 0 rgba(34, 41, 47, 0.05);
+    background-color: #fff;
+    &-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        svg {
+            color: $text-color;
+        }
+        .logo {
+            width: 100px;
+            height: auto;
+        }
+    }
+
+    &-body {
+        margin: 20px;
+        &-items {
+            &-item {
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                color: $text-color;
+                font-size: 18px;
+                transition: all ease-in-out 0.3s;
+                i {
+                    font-size: 20px;
+                    transition: all ease-in-out 0.3s;
+                }
+                svg {
+                    width: 20px;
+                    height: 20px;
+                    transition: all ease-in-out 0.3s;
+                }
+                span {
+                    color: $text-color;
+                    transition: all ease-in-out 0.3s;
+                }
+                &:hover {
+                    transform: translateX(8px);
+                    span {
+                        color: $primary-color;
+                    }
+                    i {
+                        color: $secondary-color;
+                    }
+                    svg {
+                        color: $secondary-color;
+                    }
+                }
+                &--active {
+                    span {
+                        color: $primary-color;
+                    }
+                    i {
+                        color: $secondary-color;
+                    }
+                    svg {
+                        color: $secondary-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// Header
+.app-content {
+    margin-left: 280px;
+    padding: 10px 30px;
+
+    &__header {
+        position: fixed;
+        margin: 1.3rem auto 0;
+        width: calc(100vw - (100vw - 100%) - calc(2rem * 2) - 260px);
+        border-radius: 0.428rem;
+        z-index: 12;
+        transition: all ease-in-out 0.4s;
+
+        .dropdown-toggle:after {
+            content: '';
+        }
+        .dropdown-user {
+            .dropdown-item {
+                color: $text-color !important;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-size: 16px;
+                background: transparent;
+                span,i {
+                    transition: all ease-in-out 0.3s;
+                }
+                &:hover {
+                    span {
+                        color: $primary-color;
+                    }
+                    i {
+                        color: $secondary-color;
+                    }
+                }
+            }
+        }
+        .avatar {
+            position: relative;
+            img {
+                width: 40px;
+                height: 40px;
+                border-radius: 999px;
+            }
+            &-status-online {
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                background-color: rgb(17, 255, 0);
+                border-radius: 999px;
+                bottom: 10px;
+                right: 8px;
+            }
+        }
+
+    }
+    .scrolled-header {
+        transition: all ease-in-out 0.4s;
+        margin: 0;
+        top: 0;
+        left: 280px;
+        right: 0;
+        width: auto;
+    }
+    main {
+        padding-top: 130px;
+    }
+}

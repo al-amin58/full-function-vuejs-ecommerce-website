@@ -1,0 +1,97 @@
+.dashboard {
+    .widgets {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        &-item {
+            &:nth-child(1){
+                background: #67D3C7;
+                &:hover {
+                    box-shadow: rgba(103, 211, 199, 0.6) 0px 5px 15px;
+                    .widgets-item-icon {
+                        background: #fff;
+                        i {
+                            color: #67D3C7;
+                        }
+                    }
+                }
+            }
+            &:nth-child(2){
+                background: #7947F7;
+                &:hover {
+                    box-shadow: rgba(121, 71, 247, 0.6) 0px 5px 15px;
+                    .widgets-item-icon {
+                        background: #fff;
+                        i {
+                            color: #7947F7;
+                        }
+                    }
+                }
+            }
+            &:nth-child(3){
+                background: $primary-color;
+                &:hover {
+                    box-shadow: rgba(49, 39, 130, 0.6) 0px 5px 15px;
+                    .widgets-item-icon {
+                        background: #fff;
+                        i {
+                            color: $primary-color;
+                        }
+                    }
+                }
+            }
+            &:nth-child(4){
+                background: $secondary-color;
+                &:hover {
+                    box-shadow: rgba(215, 72, 37, 0.6) 0px 5px 15px;
+                    .widgets-item-icon {
+                        background: #fff;
+                        i {
+                            color: $secondary-color;
+                        }
+                    }
+                }
+            }
+            width: 23%;
+            cursor: pointer;
+            border-radius: 10px;
+            padding: 30px 20px;
+            transition: all 0.4s;
+            &-icon {
+                width: 60px;
+                height: 60px;
+                margin-bottom: 30px;
+                border-radius: 10px;
+                background: rgba(255, 255, 255, 0.42);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: all ease-in-out 0.4s;
+                i {
+                    font-size: 30px;
+                    color: #fff;
+                    transition: all ease-in-out 0.4s;
+                }
+            }
+            h4 {
+                color: #fff;
+                margin-bottom: 20px !important;
+                font-size: 16px;
+                font-weight: 500;
+            }
+            h3 {
+                color: #fff;
+                margin-bottom: 15px !important;
+            }
+            span {
+                color: #fff;
+                .v {
+                    background: rgba(255, 255, 255, 0.2);
+                    padding: 1px 6px;
+                    border-radius: 20px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

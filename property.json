@@ -1,0 +1,467 @@
+{
+    "id": 564556,
+    "objectID": 564556,
+    "ownerID": 335885,
+    "userExternalID": "335885",
+    "sourceID": 1,
+    "state": "active",
+    "geography": {
+        "lat": 23.740347,
+        "lng": 90.414432
+    },
+    "purpose": "for-sale",
+    "price": 4000000.0,
+    "product": "hot",
+    "productLabel": "default",
+    "rentFrequency": null,
+    "referenceNumber": null,
+    "permitNumber": null,
+    "projectNumber": null,
+    "title": "We Offer You An Commercial Space Of 155 Sq Ft At Chamilibag For Sale",
+    "title_l1": "We Offer You An Commercial Space Of 155 Sq Ft At Chamilibag For Sale",
+    "description": "If you are looking to expand your business in Shantinagar then you must check out this 155  Square Feet commercial space. The facing of this commercial space is perfect to set up any kind of shop, business or office. You will get almost all the modern facilities here that you need to run your business smoothly. \n\nThis space will provide you with electricity backup incase of emergencies, has fire extinguishers in required spots, a fire exit system, 24/7 open facilities and much more that you would need to run your business smoothly. \n\nFor businesses, Shantinagar is the perfect place to be. And the location of this space is even more convenient. Letting go of the opportunity to grow your business in this space would be a mistake. So contact us today for more details!",
+    "description_l1": "If you are looking to expand your business in Shantinagar then you must check out this 155  Square Feet commercial space. The facing of this commercial space is perfect to set up any kind of shop, business or office. You will get almost all the modern facilities here that you need to run your business smoothly. \n\nThis space will provide you with electricity backup incase of emergencies, has fire extinguishers in required spots, a fire exit system, 24/7 open facilities and much more that you would need to run your business smoothly. \n\nFor businesses, Shantinagar is the perfect place to be. And the location of this space is even more convenient. Letting go of the opportunity to grow your business in this space would be a mistake. So contact us today for more details!",
+    "externalID": "5070573",
+    "slug": "we-offer-you-an-commercial-space-of-155-sq-ft-at-chamilibag-for-sale-5070573",
+    "slug_l1": "we-offer-you-an-commercial-space-of-155-sq-ft-at-chamilibag-for-sale-5070573",
+    "location": [
+        {
+            "id": 7715,
+            "level": 0,
+            "externalID": "1",
+            "name": "Bangladesh",
+            "name_l1": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+            "slug": "/bangladesh",
+            "slug_l1": "/\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6"
+        },
+        {
+            "id": 7716,
+            "level": 1,
+            "externalID": "2",
+            "name": "Dhaka",
+            "name_l1": "\u09a2\u09be\u0995\u09be",
+            "slug": "/dhaka",
+            "slug_l1": "/\u09a2\u09be\u0995\u09be"
+        },
+        {
+            "id": 7796,
+            "level": 2,
+            "externalID": "1449",
+            "name": "Shantinagar",
+            "name_l1": "\u09b6\u09be\u09a8\u09cd\u09a4\u09bf\u09a8\u0997\u09b0",
+            "slug": "/dhaka/shantinagar",
+            "slug_l1": "/\u09a2\u09be\u0995\u09be/\u09b6\u09be\u09a8\u09cd\u09a4\u09bf\u09a8\u0997\u09b0"
+        },
+        {
+            "id": 12275,
+            "level": 3,
+            "externalID": "9380",
+            "name": "Chamilibag",
+            "name_l1": "\u099a\u09be\u09ae\u09bf\u09b2\u09bf\u09ac\u09be\u0997",
+            "slug": "/dhaka/shantinagar-chamilibag",
+            "slug_l1": "/\u09a2\u09be\u0995\u09be/\u09b6\u09be\u09a8\u09cd\u09a4\u09bf\u09a8\u0997\u09b0-\u099a\u09be\u09ae\u09bf\u09b2\u09bf\u09ac\u09be\u0997"
+        }
+    ],
+    "category": [
+        {
+            "id": 2,
+            "level": 0,
+            "externalID": "2",
+            "name": "Commercial",
+            "name_l1": "\u09ac\u09be\u09a8\u09bf\u099c\u09cd\u09af\u09bf\u0995",
+            "slug": "commercial",
+            "slug_l1": "commercial",
+            "nameSingular": "Commercial",
+            "nameSingular_l1": "\u09ac\u09be\u09a8\u09bf\u099c\u09cd\u09af\u09bf\u0995"
+        },
+        {
+            "id": 16,
+            "level": 1,
+            "externalID": "6",
+            "name": "Offices",
+            "name_l1": "\u0985\u09ab\u09bf\u09b8",
+            "slug": "offices",
+            "slug_l1": "offices",
+            "nameSingular": "Office",
+            "nameSingular_l1": "\u0985\u09ab\u09bf\u09b8"
+        }
+    ],
+    "createdAt": 1703998460.0,
+    "approvedAt": 1703998460.0,
+    "updatedAt": 1703999572.596137,
+    "touchedAt": 1705289154.1186,
+    "reactivatedAt": 1703998460.0,
+    "rooms": 0,
+    "baths": 0,
+    "area": 14.399971200000001,
+    "score": 75,
+    "score_l1": 75,
+    "coverPhoto": {
+        "id": 1613625,
+        "externalID": null,
+        "title": "Front view",
+        "orderIndex": 0,
+        "nimaScore": null,
+        "url": "https://bproperty-production.s3.eu-west-1.amazonaws.com/image/1613625/84f28a72da6d43c6bc99210188bfef4f",
+        "main": true
+    },
+    "photoCount": 1,
+    "videoCount": 0,
+    "panoramaCount": 0,
+    "photos": [
+        {
+            "id": 1613625,
+            "externalID": null,
+            "title": "Front view",
+            "orderIndex": 0,
+            "nimaScore": null,
+            "url": "https://bproperty-production.s3.eu-west-1.amazonaws.com/image/1613625/84f28a72da6d43c6bc99210188bfef4f"
+        }
+    ],
+    "floorPlans": [],
+    "videos": [],
+    "panoramas": [],
+    "amenities": [
+        {
+            "externalGroupID": 1,
+            "groupRank": 1,
+            "text": "Main Features",
+            "text_l1": "\u09aa\u09cd\u09b0\u09a7\u09be\u09a8 \u09ac\u09c8\u09b6\u09bf\u09b7\u09cd\u099f\u09cd\u09af\u09b8\u09ae\u09c2\u09b9",
+            "amenities": [
+                {
+                    "text": "View",
+                    "text_l1": "\u09ad\u09bf\u0989",
+                    "value": "South",
+                    "rank": 1,
+                    "slug": "view",
+                    "format": "text",
+                    "externalID": 2
+                },
+                {
+                    "text": "Balcony or Terrace",
+                    "text_l1": "\u09ac\u09be\u09b0\u09be\u09a8\u09cd\u09a6\u09be \u0995\u09bf\u0982\u09ac\u09be \u099b\u09be\u09a6",
+                    "value": "yes",
+                    "rank": 1,
+                    "slug": "balcony-or-terrace",
+                    "format": "checkbox",
+                    "externalID": 3
+                },
+                {
+                    "text": "Lobby in Building",
+                    "text_l1": "\u09b2\u09ac\u09bf \u09b8\u09c1\u09ac\u09bf\u09a7\u09be",
+                    "value": "yes",
+                    "rank": 1,
+                    "slug": "lobby-in-building",
+                    "format": "checkbox",
+                    "externalID": 5
+                },
+                {
+                    "text": "Double Glazed Windows",
+                    "text_l1": "\u09a1\u09be\u09ac\u09b2 \u0997\u09cd\u09b2\u09c7\u099c\u09a1 \u099c\u09be\u09a8\u09be\u09b2\u09be",
+                    "value": "yes",
+                    "rank": 1,
+                    "slug": "double-glazed-windows",
+                    "format": "checkbox",
+                    "externalID": 6
+                },
+                {
+                    "text": "Central Air-Con",
+                    "text_l1": "\u0995\u09c7\u09a8\u09cd\u09a6\u09cd\u09b0\u09c0\u09df \u09b6\u09c0\u09a4\u09be\u09a4\u09aa \u09a8\u09bf\u09df\u09a8\u09cd\u09a4\u09cd\u09b0\u09a3 \u09ac\u09cd\u09af\u09ac\u09b8\u09cd\u09a5\u09be",
+                    "value": "yes",
+                    "rank": 1,
+                    "slug": "central-air-con",
+                    "format": "checkbox",
+                    "externalID": 7
+                },
+                {
+                    "text": "Central Heating",
+                    "text_l1": "\u0995\u09c7\u09a8\u09cd\u09a6\u09cd\u09b0\u09c0\u09df \u09b6\u09c0\u09a4\u09be\u09a4\u09aa \u09a8\u09bf\u09df\u09a8\u09cd\u09a4\u09cd\u09b0\u09a3 \u09ac\u09cd\u09af\u09ac\u09b8\u09cd\u09a5\u09be",
+                    "value": "yes",
+                    "rank": 1,
+                    "slug": "central-heating",
+                    "format": "checkbox",
+                    "externalID": 8
+                },
+                {
+                    "text": "Electricity Backup",
+                    "text_l1": "\u0987\u09b2\u09c7\u0995\u09cd\u099f\u09cd\u09b0\u09bf\u09b8\u09bf\u099f\u09bf \u09ac\u09cd\u09af\u09be\u0995\u0986\u09aa \u09b8\u09c1\u09ac\u09bf\u09a7\u09be",
+                    "value": "yes",
+                    "rank": 1,
+                    "slug": "electricity-backup",
+                    "format": "checkbox",
+                    "externalID": 10
+                },
+                {
+                    "text": "Waste Disposal",
+                    "text_l1": "\u09a6\u09c8\u09a8\u09a8\u09cd\u09a6\u09bf\u09a8 \u0993\u09df\u09c7\u09b8\u09cd\u099f \u09a1\u09bf\u099c\u09aa\u09cb\u099c\u09be\u09b2 \u09b8\u09c1\u09ac\u09bf\u09a7\u09be",
+                    "value": "yes",
+                    "rank": 1,
+                    "slug": "waste-disposal",
+                    "format": "checkbox",
+                    "externalID": 11
+                },
+                {
+                    "text": "Flooring",
+                    "text_l1": "\u0998\u09b0\u09c7\u09b0 \u09ae\u09c7\u099d\u09c7",
+                    "value": "Tiles",
+                    "rank": 1,
+                    "slug": "flooring",
+                    "format": "select",
+                    "externalID": 15
+                },
+                {
+                    "text": "Elevators in Building",
+                    "text_l1": "\u09b2\u09bf\u09ab\u099f \u09b8\u0982\u0996\u09cd\u09af\u09be",
+                    "value": "2",
+                    "rank": 1,
+                    "slug": "elevators-in-building",
+                    "format": "number",
+                    "externalID": 16
+                },
+                {
+                    "text": "Apartment Facing",
+                    "text_l1": "Apartment Facing",
+                    "value": "North",
+                    "rank": 1,
+                    "slug": "apartment-facing",
+                    "format": "text",
+                    "externalID": 84
+                },
+                {
+                    "text": "Gas",
+                    "text_l1": "\u0997\u09cd\u09af\u09be\u09b8",
+                    "value": "yes",
+                    "rank": 1,
+                    "slug": "gas",
+                    "format": "checkbox",
+                    "externalID": 85
+                },
+                {
+                    "text": "Electricity",
+                    "text_l1": "\u09ac\u09bf\u09a6\u09cd\u09af\u09c1\u09ce",
+                    "value": "yes",
+                    "rank": 1,
+                    "slug": "electricity",
+                    "format": "checkbox",
+                    "externalID": 86
+                },
+                {
+                    "text": "Floor Level",
+                    "text_l1": "Floor Level",
+                    "value": "First Floor",
+                    "rank": 1,
+                    "slug": "floor",
+                    "format": "select",
+                    "externalID": 88
+                }
+            ]
+        },
+        {
+            "externalGroupID": 3,
+            "groupRank": 3,
+            "text": "Business and Communication",
+            "text_l1": "\u0985\u09ad\u09cd\u09af\u09a8\u09cd\u09a4\u09b0\u09c0\u09a3 \u09af\u09cb\u0997\u09be\u09af\u09cb\u0997",
+            "amenities": [
+                {
+                    "text": "Broadband Internet",
+                    "text_l1": "\u09ac\u09cd\u09b0\u09a1\u09ac\u09cd\u09af\u09be\u09a8\u09cd\u09a1 \u0987\u09a8\u09cd\u099f\u09be\u09b0\u09a8\u09c7\u099f",
+                    "value": "yes",
+                    "rank": 1,
+                    "slug": "broadband-internet",
+                    "format": "checkbox",
+                    "externalID": 26
+                },
+                {
+                    "text": "Satellite/Cable TV",
+                    "text_l1": "\u09b8\u09cd\u09af\u09be\u099f\u09c7\u09b2\u09be\u0987\u099f / \u0995\u09c7\u09ac\u09b2 \u099f\u09bf\u09ad\u09bf",
+                    "value": "yes",
+                    "rank": 1,
+                    "slug": "satellite-cableTV",
+                    "format": "checkbox",
+                    "externalID": 27
+                }
+            ]
+        },
+        {
+            "externalGroupID": 6,
+            "groupRank": 6,
+            "text": "Nearby Locations",
+            "text_l1": "\u0986\u09b6\u09aa\u09be\u09b6\u09c7\u09b0 \u098f\u09b2\u09be\u0995\u09be",
+            "amenities": [
+                {
+                    "text": "Nearby Schools",
+                    "text_l1": "\u09b8\u09cd\u0995\u09c1\u09b2",
+                    "value": "Kakrail school",
+                    "rank": 1,
+                    "slug": "nearby-schools",
+                    "format": "text",
+                    "externalID": 55
+                },
+                {
+                    "text": "Distance From Airport (kms)",
+                    "text_l1": "\u09ac\u09bf\u09ae\u09be\u09a8\u09ac\u09a8\u09cd\u09a6\u09b0 \u09a5\u09c7\u0995\u09c7 \u09a6\u09c2\u09b0\u09a4\u09cd\u09ac (\u0995\u09bf\u0983 \u09ae\u09bf\u0983)",
+                    "value": "25",
+                    "rank": 1,
+                    "slug": "distance-from-airport-kms",
+                    "format": "number",
+                    "externalID": 58
+                },
+                {
+                    "text": "Nearby Public Transport",
+                    "text_l1": "\u0997\u09a3\u09aa\u09b0\u09bf\u09ac\u09b9\u09a8 \u09ac\u09cd\u09af\u09ac\u09b8\u09cd\u09a5\u09be",
+                    "value": "Shantinagar",
+                    "rank": 1,
+                    "slug": "nearby-public-transport",
+                    "format": "text",
+                    "externalID": 59
+                }
+            ]
+        },
+        {
+            "externalGroupID": 8,
+            "groupRank": 7,
+            "text": "Security",
+            "text_l1": "\u09a8\u09bf\u09b0\u09be\u09aa\u09a4\u09cd\u09a4\u09be \u09ac\u09cd\u09af\u09ac\u09b8\u09cd\u09a5\u09be",
+            "amenities": [
+                {
+                    "text": "CCTV Security",
+                    "text_l1": "\u09b8\u09bf\u09b8\u09bf\u099f\u09bf\u09ad\u09bf \u09a8\u09bf\u09b0\u09be\u09aa\u09a4\u09cd\u09a4\u09be",
+                    "value": "yes",
+                    "rank": 1,
+                    "slug": "cctv-security",
+                    "format": "checkbox",
+                    "externalID": 63
+                },
+                {
+                    "text": "Fire Exit",
+                    "text_l1": "\u099c\u09b0\u09c1\u09b0\u09c0 \u09ac\u09b9\u09bf\u09a8\u09bf\u09b0\u09cd\u0997\u09ae\u09a8 \u09ac\u09cd\u09af\u09ac\u09b8\u09cd\u09a5\u09be",
+                    "value": "yes",
+                    "rank": 1,
+                    "slug": "fire-exit",
+                    "format": "checkbox",
+                    "externalID": 76
+                },
+                {
+                    "text": "Fire Extinguisher",
+                    "text_l1": "\u0985\u0997\u09cd\u09a8\u09bf \u09a8\u09bf\u09b0\u09cd\u09ac\u09be\u09aa\u09a8 \u09ac\u09cd\u09af\u09ac\u09b8\u09cd\u09a5\u09be",
+                    "value": "yes",
+                    "rank": 1,
+                    "slug": "fire-extinguisher",
+                    "format": "checkbox",
+                    "externalID": 77
+                },
+                {
+                    "text": "Fire Hose",
+                    "text_l1": "\u0987\u09ae\u09be\u09b0\u09cd\u099c\u09c7\u09a8\u09cd\u09b8\u09c0 \u09ab\u09be\u09df\u09be\u09b0 \u09b9\u09cb\u09b8 \u0985\u09cd\u09af\u09be\u09ad\u09c7\u0987\u09b2\u09bf\u09ac\u09bf\u09b2\u09bf\u099f\u09bf",
+                    "value": "yes",
+                    "rank": 1,
+                    "slug": "fire-hose",
+                    "format": "checkbox",
+                    "externalID": 78
+                },
+                {
+                    "text": "Sprinkler",
+                    "text_l1": "\u0987\u09ae\u09be\u09b0\u09cd\u099c\u09c7\u09a8\u09cd\u09b8\u09c0 \u09b8\u09cd\u09aa\u09cd\u09b0\u09bf\u0999\u09cd\u0995\u09b2\u09be\u09b0",
+                    "value": "yes",
+                    "rank": 1,
+                    "slug": "sprinkler",
+                    "format": "checkbox",
+                    "externalID": 79
+                },
+                {
+                    "text": "Guard/ Security Staff",
+                    "text_l1": "\u09b8\u09bf\u0995\u09bf\u0989\u09b0\u09bf\u099f\u09bf \u0997\u09be\u09b0\u09cd\u09a1",
+                    "value": "yes",
+                    "rank": 1,
+                    "slug": "guard-security-staff",
+                    "format": "checkbox",
+                    "externalID": 80
+                }
+            ]
+        },
+        {
+            "externalGroupID": 7,
+            "groupRank": 8,
+            "text": "Other Facilities",
+            "text_l1": "\u0985\u09a8\u09cd\u09af\u09be\u09a8\u09cd\u09af \u09b8\u09c1\u09af\u09cb\u0997 - \u09b8\u09c1\u09ac\u09bf\u09a7\u09be\u09b8\u09ae\u09c2\u09b9",
+            "amenities": [
+                {
+                    "text": "Pet Policy",
+                    "text_l1": "\u09aa\u09cb\u09b7\u09cd\u09af \u09aa\u09cd\u09b0\u09be\u09a8\u09c0 \u09b0\u09be\u0996\u09ac\u09be\u09b0 \u0985\u09a8\u09c1\u09ae\u09a4\u09bf",
+                    "value": "Not Allowed",
+                    "rank": 1,
+                    "slug": "pet-policy",
+                    "format": "select",
+                    "externalID": 21
+                },
+                {
+                    "text": "Cleaning Services",
+                    "text_l1": "\u0995\u09cd\u09b2\u09bf\u09a8\u09bf\u0982 \u098f\u09ac\u0982 \u09b2\u09a8\u09cd\u09a1\u09cd\u09b0\u09bf \u09b8\u09be\u09b0\u09cd\u09ad\u09bf\u09b8",
+                    "value": "yes",
+                    "rank": 1,
+                    "slug": "cleaning-services",
+                    "format": "checkbox",
+                    "externalID": 73
+                }
+            ]
+        }
+    ],
+    "phoneNumber": {
+        "proxyMobile": "+8809612451105",
+        "mobileNumbers": [
+            "+8809617652288"
+        ],
+        "mobile": "+8809617652288"
+    },
+    "contactName": "Sami",
+    "agency": {
+        "id": 2,
+        "objectID": 2,
+        "name": "BProperty.com",
+        "name_l1": "BProperty.com",
+        "externalID": "6706",
+        "product": "featured",
+        "productScore": 1,
+        "licenses": [],
+        "logo": {
+            "id": 1,
+            "url": "https://bproperty-production.s3.eu-west-1.amazonaws.com/image/1/cd4e6c71eb0e4367a6b8073271bb2b55"
+        },
+        "slug": "bproperty-com-6706",
+        "slug_l1": "bproperty-com-6706",
+        "tr": 4,
+        "tier": 4,
+        "roles": [],
+        "active": true,
+        "createdAt": "2020-03-06T09:00:17.936407+00:00",
+        "commercialNumber": null,
+        "shortNumber": null
+    },
+    "active": true,
+    "hasExactGeography": false,
+    "verification": {
+        "status": "unverified",
+        "type": null,
+        "eligible": false,
+        "comment": null,
+        "updatedAt": 1703999572.665898,
+        "verifiedAt": null,
+        "visitedAt": null,
+        "trucheckedAt": 0
+    },
+    "isVerified": false,
+    "completionStatus": "completed",
+    "occupancyStatus": "vacant",
+    "randBoostScore": 270,
+    "randBoostScore_l1": 270,
+    "furnishingStatus": null,
+    "extraFields": {},
+    "type": "property",
+    "cityLevelScore": 1,
+    "indyScore": 270,
+    "indyScore_l1": 270,
+    "hasMatchingFloorPlans": false,
+    "hidePrice": false,
+    "locationPurposeTier": 0,
+    "plotArea": null
+}

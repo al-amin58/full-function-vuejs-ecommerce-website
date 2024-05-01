@@ -1,0 +1,35 @@
+/*------------------
+Responsive Media Query Variables
+------------------*/
+$small_mobile: '(max-width: 767px)';
+$large_mobile: 'only screen and (min-width: 480px) and (max-width: 767px)';
+$tab_device: 'only screen and (min-width: 768px) and (max-width: 991px)';
+$lg_device: 'only screen and (min-width: 992px) and (max-width: 1280px)';
+$desktop: '(min-width: 1281px)';
+$desktop_m: '(max-width: 1450px)';
+
+$ls: '(min-width: 1600px)';
+$big_s: '(min-width: 1900px)';
+
+/*------------------
+Colors
+------------------*/
+$primary-color: var(--primary-color, #E50102); //rgb(49, 39, 130)
+$secondary-color: var(--secondary-color, #D74825);
+$bg-color: var(--bg-color, #F8F8F8);
+$border-color: var(--border-color, #d8d6de);
+
+// Text
+$text-color: var(--text-color, #625f6e);
+$text-gray: var(--text-gray, #333333);
+$text-light-gray: var(--text-light-gray, #4F4F4F);
+
+/*------------------
+Hover
+------------------*/
+
+$button-hover-bg-color: var(--button-hover-bg-color, #f5f4f9);
+
+// Text link hover
+$text-link-hover: var(--text-link-hover, $secondary-color)
+

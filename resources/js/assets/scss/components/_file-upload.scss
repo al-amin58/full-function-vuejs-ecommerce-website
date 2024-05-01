@@ -1,0 +1,78 @@
+.file-upload-container {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    &-wrapper {
+        border: 1px solid $border-color;
+        padding: 10px;
+        border-radius: 8px;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        background: #f1f1f1;
+        &__preview {
+            position: relative;
+            &-item {
+                width: 200px;
+                height: 120px;
+                object-fit: cover;
+                border-radius: 4px;
+            }
+            &-cancel {
+                position: absolute;
+                top: 5px;
+                right: 5px;
+                width: 26px;
+                height: 26px;
+                border-radius: 999px;
+                background: $secondary-color;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                svg {
+                    width: 18px;
+                    height: 18px;
+                    color: #fff;
+                }
+                i {
+                    color: #fff;
+                }
+            }
+        }
+        &__add {
+            label {
+                border: 2px dashed $primary-color;
+                width: 200px;
+                height: 120px;
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                span {
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 999px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #fff;
+                    svg {
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+            }
+        }
+    }
+    .upload-image {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;cursor: pointer;
+        svg {
+            width: 20px;
+            height: 20px;
+            color: #fff;
+        }
+    }
+}
